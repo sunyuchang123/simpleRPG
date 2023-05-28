@@ -59,12 +59,17 @@ public class ChooseHeroPanel extends javax.swing.JFrame {
         jLabel4.setPreferredSize(new java.awt.Dimension(150, 150));
 
         jButton1.setText("Pick");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Pick");
 
         jButton3.setText("Pick");
 
-        jMenu1.setText("Saved Game");
+        jMenu1.setText("Start Game");
 
         jCheckBoxMenuItem1.setSelected(true);
         jCheckBoxMenuItem1.setText("New Game");
@@ -128,6 +133,10 @@ public class ChooseHeroPanel extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

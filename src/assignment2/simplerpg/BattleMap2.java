@@ -56,7 +56,7 @@ public class BattleMap2 extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\yucha\\OneDrive\\桌面\\Assignment2 simpleRPG\\src\\Image\\magma.png")); // NOI18N
         jLabel1.setPreferredSize(new java.awt.Dimension(150, 150));
 
-        jMenu1.setText("Saved Game");
+        jMenu1.setText("Start Game");
 
         jCheckBoxMenuItem1.setSelected(true);
         jCheckBoxMenuItem1.setText("New Game");

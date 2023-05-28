@@ -56,7 +56,7 @@ public class BattleMap extends javax.swing.JFrame {
         label3.setName("Health"); // NOI18N
         label3.setText("Health: 100");
 
-        jMenu1.setText("Saved Game");
+        jMenu1.setText("Start Game");
 
         jCheckBoxMenuItem1.setSelected(true);
         jCheckBoxMenuItem1.setText("New Game");

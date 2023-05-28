@@ -4,11 +4,20 @@
  */
 package assignment2.simplerpg;
 
+import javax.swing.JMenuItem;
+
 /**
  *
  * @author yucha
  */
-public class Assignment2SimpleRPG {
+public class Assignment2SimpleRPG extends javax.swing.JFrame{
+    
+    public Assignment2SimpleRPG(){}
+    
+    private void initComponects(){
+    
+    
+    }
 
     /**
      * @param args the command line arguments
